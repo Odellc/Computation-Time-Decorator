@@ -11,7 +11,6 @@ file_path = os.path.join(os.curdir)
 output_path = os.path.join(os.curdir, os.pardir, 'Data', 'test')
 today = datetime.today()
 
-
 @computation_time(message="Double Loop Time:")
 def dloop_test(data):
     customers = []
